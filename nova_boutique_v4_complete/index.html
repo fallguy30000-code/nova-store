@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>NOVA Boutique Gaming</title><link rel="stylesheet" href="style.css"></head><body><div class="topbar">Expédition le jour même 🚚</div>
+<header class="header"><a class="brand" href="index.html"><img src="assets/logo_nova.png" alt="NOVA"><span>NOVA</span></a><div class="search"><span>⌕</span><input placeholder="Rechercher souris, clavier, écran..." oninput="searchProducts(this.value)"></div><nav class="quick"><a href="souris.html">Souris</a><a href="claviers.html">Claviers</a><a href="ecrans.html">Écrans</a><a href="panier.html" class="cart-link">🛒 <b id="cartCount">0</b></a></nav></header>
+<nav class="menu"><a href="index.html">Accueil</a><a href="souris.html">Souris gaming</a><a href="claviers.html">Claviers gaming</a><a href="ecrans.html">Écrans gaming</a><a href="panier.html">Panier</a><a href="paiement.html">Paiement</a></nav><main class="home">
+<section class="hero-grid">
+  <div class="hero-main"><img src="assets/hero_setup.png" alt="Setup gaming NOVA"><div class="hero-copy"><p class="eyebrow">NOVA GAMING STORE</p><h1>Claviers, souris et écrans pour setup premium.</h1><p>Une vitrine moderne pour découvrir les meilleurs périphériques gaming du moment.</p><div class="hero-actions"><a class="btn dark" href="souris.html">Voir les souris</a><a class="btn light" href="claviers.html">Voir les claviers</a></div></div></div>
+  <div class="side-card"><img src="assets/banner_best.png" alt="Les meilleurs produits de l'année"></div>
+</section>
+<section class="benefits"><div>💳 Payez en 3x ou 4x</div><div>🚚 Expédition rapide</div><div>↩️ Retours sous 30 jours</div><div>💬 Support français</div></section>
+<section class="section-title"><h2>[ LES PRODUITS HYPE ]</h2><a href="souris.html">Voir tout ></a></section>
+<div class="tabs"><button class="active" onclick="renderHome('souris', this)">Souris</button><button onclick="renderHome('claviers', this)">Claviers</button><button onclick="renderHome('ecrans', this)">Écrans</button></div>
+<section id="homeProducts" class="products"></section>
+</main><footer class="footer"><b>NOVA</b><p>Site e-commerce démo. Pour vendre réellement : connecter Stripe/Shopify + fournisseur + CGV + livraison.</p></footer><script src="products.js"></script><script src="app.js"></script></body></html>
